@@ -11,5 +11,5 @@ spring:
     consumer:
       bootstrap-servers: 142.93.218.7:9092
       group-id: app_id
-      key-deserializer: org.apache.kafka.common.serialization.StringSerializer
-      value-deserializer: org.apache.kafka.common.serialization.StringSerializer
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
